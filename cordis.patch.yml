@@ -1,0 +1,4 @@
+# dsh-time bundle patch: mount the time tool under its package name.
+- insert:
+    - id: time-tool
+      name: dsh-time

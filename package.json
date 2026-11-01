@@ -1,0 +1,13 @@
+{
+  "name": "dsh-time",
+  "version": "0.1.0",
+  "description": "Time confirmation tool for DeepSeek Harness: registers a get_current_time tool so the agent checks real local/UTC time instead of guessing dates.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
